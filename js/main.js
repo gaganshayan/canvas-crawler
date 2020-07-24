@@ -14,18 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.fillStyle = color;
         ctx.fillRect(x, y, size, size);
     }
-
-    drawBox(200, 100, 200, 'orange');
-    // DRAW A BOX
-    // set a fill color
-    ctx.fillStyle = 'white';
-    // set a line color
-    ctx.strokeStyle = 'red';
-    // set a line width
-    ctx.lineWidth = 5;
-    // call the fillRect to draw the filled square
-    ctx.fillRect(10, 10, 100, 100);
-    // call strokeRect to draw the line rectangle
-    ctx.strokeRect(10, 10, 100, 100);
+    
 
 })
